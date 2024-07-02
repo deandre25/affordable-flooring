@@ -1,0 +1,24 @@
+.reviews-page {
+    background-image: url("./background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    background-attachment: fixed; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .reviews-container {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .elfsight-app-eb6ff44e-a9a4-464f-a7b0-1265f6c615f0 {
+    width: 100%;
+    margin: 0 auto;
+  }

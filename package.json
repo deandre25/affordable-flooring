@@ -1,0 +1,26 @@
+{
+  "name": "affordable-flooring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "node server/index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@mui/material": "^5.15.21",
+    "axios": "^1.7.2",
+    "concurrently": "^8.2.2",
+    "react-icons": "^5.2.1",
+    "react-scroll": "^1.9.0",
+    "slick-carousel": "^1.8.1"
+  }
+}

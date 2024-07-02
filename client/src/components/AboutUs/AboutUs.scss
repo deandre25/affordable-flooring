@@ -1,0 +1,94 @@
+.about-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    padding: 40px;
+    background-image: url("./background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+  
+    .about-heading {
+      font-size: 2.5em;
+      margin-bottom: 80px;
+      background: rgba(128, 128, 128, 0.7);
+      color: #fff;
+      text-align: center;
+    }
+  
+    .about-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 10px;
+  
+      .about-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+  
+        .about-column {
+          flex: 1;
+          min-width: 300px;
+  
+          &:first-child {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+  
+          &:last-child {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 10px;
+          }
+  
+          .about-image {
+            max-width: 60%;
+            height: auto;
+            border-radius: 10px;
+          }
+  
+          p {
+            font-size: 1.25em;
+            margin: 10px 0;
+            text-align: left;
+            line-height: 1.6;
+            background: rgba(
+              0,
+              0,
+              0,
+              0.7
+            );
+            padding: 10px;
+            border-radius: 5px;
+          }
+  
+          .learn-more-btn {
+            margin-top: 30px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #646464;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            align-self: center;
+          
+            &:hover {
+              background-color: #252525;
+            }
+          }
+        }
+      }
+    }
+  }
